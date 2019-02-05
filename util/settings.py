@@ -14,7 +14,7 @@ CURRENT_SPLIT_TYPE = SPLIT_TYPE.KEEP_ORDER
 NUM_ACTIONS = 1
 
 # How many training samples to use - works with DATASET_USAGE = DATASET_AMOUNT.FIRST1000
-# should be less than 1000
+# should be less or equal than  1000
 NUM_TRAINING_SAMPLES = 1000
 
 # Split factor
