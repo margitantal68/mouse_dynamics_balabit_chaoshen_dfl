@@ -15,7 +15,7 @@ Code repository of paper submitted for SACI 2019, Informatics section.
 Performances are reported using ROC Area Under Curve (AUC).
 ### Evaluation protocol
 
-A binary classifier (Random forest. 100 trees) was trained for each users using positive and negative data. In the case of positive data, the chronologically first 2/3 of the data was used for training and the remaining 1/3 of the data was used for evaluation. Negative data were selected from the other users (#positive samples = #negative samples).
+A binary classifier (Random forest, 100 trees) was trained for each users using positive and negative data. In the case of positive data, the chronologically first 2/3 of the data was used for training and the remaining 1/3 of the data was used for evaluation. Negative data were selected from the other users (#positive samples = #negative samples).
 
 * First Scenario: user identity predictions using a single mouse action
 * Second Scenario: user identity predictions using a sequence of consecutive actions (sliding window, overlap between consecutive windows was 90%).
