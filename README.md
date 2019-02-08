@@ -12,7 +12,15 @@ Code repository of paper submitted for SACI 2019, Informatics section.
 
 
 ## Evaluation
+
+### Feature extraction
+
+Raw data were segmented into mouse actions then 39 features were extracted from each mouse action. For details see
+* Our paper Intrusion Detection Using Mouse Dynamics [https://arxiv.org/abs/1810.04668]
+* https://ms.sapientia.ro/~manyi/mousedynamics/
+
 Performances are reported using ROC Area Under Curve (AUC).
+
 ### Evaluation protocol
 
 A binary classifier (Random forest, 100 trees) was trained for each users using positive and negative data. In the case of positive data, the chronologically first 2/3 of the data was used for training and the remaining 1/3 of the data was used for evaluation. Negative data were selected from the other users (#positive samples = #negative samples).
