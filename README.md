@@ -26,7 +26,7 @@ Software: Python 3, scikit-learn 0.19.1
 
 Evaluate the Balabit data set using the first 500 actions/user and 10 actions for user identity predictions:
 
-Pleese set the followings in util/settings.py
+Please set the followings in util/settings.py
 
 * CURRENT_DATASET = DATASET.BALABIT
 * DATASET_USAGE = DATASET_AMOUNT.FIRST1000
