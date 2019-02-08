@@ -19,6 +19,9 @@ Raw data were segmented into mouse actions then 39 features were extracted from 
 * Our paper Intrusion Detection Using Mouse Dynamics [https://arxiv.org/abs/1810.04668]
 * https://ms.sapientia.ro/~manyi/mousedynamics/
 
+
+### Performance measures
+
 Performances are reported using ROC Area Under Curve (AUC).
 
 ### Evaluation protocol
@@ -32,15 +35,15 @@ Software: Python 3, scikit-learn 0.19.1
 
 ## Usage
 
-Evaluate the Balabit data set using the first 500 actions/user and 10 actions for user identity predictions:
+Example: Evaluate the Balabit data set using the first 500 actions/user and 10 actions for user identity predictions.
 
-Please set the followings in util/settings.py
+1. Please set the followings in util/settings.py
 
 * CURRENT_DATASET = DATASET.BALABIT
 * DATASET_USAGE = DATASET_AMOUNT.FIRST1000
 * NUM_TRAINING_SAMPLES = 500
 * NUM_ACTIONS = 10
 
-Run evaluation
+2. Run evaluation
 
 * python main.py
