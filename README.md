@@ -28,11 +28,11 @@ Evaluate the Balabit data set using the second scenario and 10 actions for user 
 
 Pleese set the followings in util/settings.py
 
-CURRENT_DATASET = DATASET.BALABIT
-DATASET_USAGE = DATASET_AMOUNT.FIRST1000
-NUM_TRAINING_SAMPLES = 1000
-NUM_ACTIONS = 10
+* CURRENT_DATASET = DATASET.BALABIT
+* DATASET_USAGE = DATASET_AMOUNT.FIRST1000
+* NUM_TRAINING_SAMPLES = 1000
+* NUM_ACTIONS = 10
 
 Run evaluation
 
-python main.py
+* python main.py
