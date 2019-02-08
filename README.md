@@ -2,7 +2,7 @@
 
 User Verification Based on Mouse Dynamics: a Comparison of Public Data Sets
 ## Context 
-Code repository of paper submitted for SACI 2019, Informatics section.
+Code repository of paper submitted to SACI 2019, Informatics section.
 ## Used data sets
 
 * [Balabit] (https://github.com/balabit/Mouse-Dynamics-Challenge) - Mouse Dynamics Challenge (10 users)
