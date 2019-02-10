@@ -16,7 +16,7 @@ Code repository of paper submitted to SACI 2019, Informatics section.
 ### Feature extraction
 
 Raw data were segmented into mouse actions then 39 features were extracted from each mouse action. For details see
-* [Our paper Intrusion Detection Using Mouse Dynamics](https://arxiv.org/abs/1810.04668)
+* Our paper [Intrusion Detection Using Mouse Dynamics](https://arxiv.org/abs/1810.04668)
 * [Resources](https://ms.sapientia.ro/~manyi/mousedynamics/)
 
 
