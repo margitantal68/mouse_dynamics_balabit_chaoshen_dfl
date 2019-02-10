@@ -5,9 +5,9 @@ User Verification Based on Mouse Dynamics: a Comparison of Public Data Sets
 Code repository of paper submitted to SACI 2019, Informatics section.
 ## Used data sets
 
-* [Balabit] (https://github.com/balabit/Mouse-Dynamics-Challenge) - Mouse Dynamics Challenge (10 users)
-* [Chaoshen] (https://figshare.com/articles/Mouse_Behavior_Data_for_Continuous_Authentication/5619328) - Chao Shen's data set (28 users)
-* [DFL] (https://ms.sapientia.ro/~manyi/DFL.html) - Our DFL data set (21 users)
+* [Balabit](https://github.com/balabit/Mouse-Dynamics-Challenge) - Mouse Dynamics Challenge (10 users)
+* [Chaoshen](https://figshare.com/articles/Mouse_Behavior_Data_for_Continuous_Authentication/5619328) - Chao Shen's data set (28 users)
+* [DFL](https://ms.sapientia.ro/~manyi/DFL.html) - Our DFL data set (21 users)
 
 
 
@@ -16,8 +16,8 @@ Code repository of paper submitted to SACI 2019, Informatics section.
 ### Feature extraction
 
 Raw data were segmented into mouse actions then 39 features were extracted from each mouse action. For details see
-* Our paper Intrusion Detection Using Mouse Dynamics [https://arxiv.org/abs/1810.04668]
-* https://ms.sapientia.ro/~manyi/mousedynamics/
+* [Our paper Intrusion Detection Using Mouse Dynamics](https://arxiv.org/abs/1810.04668)
+* [Resources](https://ms.sapientia.ro/~manyi/mousedynamics/)
 
 
 ### Performance measures
