@@ -1,6 +1,5 @@
-### mouse_dynamics_balabit_chaoshen_dfl
-
-# User Verification Based on Mouse Dynamics: a Comparison of Public Data Sets
+### User Verification Based on Mouse Dynamics: a Comparison of Public Data Sets
+# mouse_dynamics_balabit_chaoshen_dfl
 ## Context 
 Code repository of paper submitted to SACI 2019, Informatics section.
 ## Used data sets
